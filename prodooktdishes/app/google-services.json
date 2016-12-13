@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "378923720758",
+    "firebase_url": "https://dishes-4e81d.firebaseio.com",
+    "project_id": "dishes-4e81d",
+    "storage_bucket": "dishes-4e81d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378923720758:android:ec7061ba092cdab1",
+        "android_client_info": {
+          "package_name": "com.example.a1.prodooktdishes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378923720758-ciaaaqd9c2iger7oaebej3c9mdvavngj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqkGACC_gm89xNB039YXmdGXZHh8YGZ7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
