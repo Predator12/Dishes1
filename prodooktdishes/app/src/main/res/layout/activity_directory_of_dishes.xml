@@ -7,51 +7,41 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.a1.prodooktdishes.DirectoryOfDishes">
 
-    <TabHost
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            app:srcCompat="@drawable/tttt"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView"
+            android:textStyle="normal|bold|italic"
+            android:textSize="12sp"
+            android:text='"Плов постный":
+         Рис  — 1 стак.
+         Морковь — 1 шт
+         Лук репчатый  — 2 шт
+         Масло сливочное  — 50 г
+         Масло растительное — 4 ст. л.
+         Соль  — 1 ч. л.
+         Перец черный  — 1 ч. л.
+         Лист лавровый — 3 шт '
+             />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <TabWidget
-                android:id="@android:id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="74dp" />
-
-            <FrameLayout
-                android:id="@android:id/tabcontent"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:id="@+id/tab3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/tab1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/tab2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:weightSum="1">
-
-                </LinearLayout>
-            </FrameLayout>
         </LinearLayout>
-    </TabHost>
+
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
